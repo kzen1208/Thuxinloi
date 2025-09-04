@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thư Xin Lỗi 💔</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="envlope-wrapper">
+        <div id="envelope" class="close">
+            <div class="wax-seal"></div>
+            <div class="front flap"></div>
+            <div class="front pocket"></div>
+            <div class="letter">
+                <div class="letter-corner corner-tl"></div>
+                <div class="letter-corner corner-br"></div>
+                <div class="message">
+                    <div class="letter-header">
+                        <h1>Thư Xin Lỗi</h1>
+                        <div class="date">Ngày: <span id="current-date"></span></div>
+                    </div>
+                    
+                    <div class="letter-content">
+                        <div class="greeting">Gửi em yêu... 💔</div>
+                        
+                        <div class="letter-body">
+                            <p>Anh viết những dòng này với trái tim đầy hối hận, biết rằng những gì anh đã làm đã làm tổn thương em sâu sắc. Mỗi đêm trôi qua, anh không thể ngủ được vì cứ nghĩ đến ánh mắt buồn của em.</p>
+                            
+                            <p>Anh xin lỗi vì đã không lắng nghe em khi em cần anh nhất. Anh xin lỗi vì những lời nói thiếu suy nghĩ đã làm em buồn và đau lòng. Anh xin lỗi vì đã không trân trọng những gì chúng ta đã có với nhau.</p>
+                            
+                            <p>Em là người quan trọng nhất trong đời anh, và anh không muốn mất em vì những sai lầm ngu ngốc của mình. Anh biết rằng lời xin lỗi thôi chưa đủ, nhưng anh muốn em biết anh thật sự hối hận từ tận đáy lòng.</p>
+                            
+                            <p>Anh hứa sẽ thay đổi, sẽ lắng nghe em nhiều hơn, sẽ quan tâm em đúng cách hơn, và sẽ yêu thương em như em xứng đáng được yêu thương. Cho anh một cơ hội để sửa sai, để chứng minh anh có thể làm tốt hơn.</p>
+                            
+                            <p>Anh sẽ kiên nhẫn chờ đợi sự tha thứ của em, dù có mất bao lâu đi nữa. Anh sẽ cố gắng mỗi ngày để xứng đáng với tình yêu của em, để trở thành người đàn ông mà em có thể tin tưởng và dựa dẫm.</p>
+                            
+                            <p>Thật lòng xin lỗi em. Anh yêu em và sẽ luôn yêu em, không gì có thể thay đổi điều đó. ❤️</p>
+                        </div>
+                        
+                        <div class="signature">
+                            <div class="signature-line">Với tất cả tình yêu và sự hối lỗi,</div>
+                            <div class="signature-name">Người luôn yêu em</div>
+                            <div class="signature-date"><span id="signature-date"></span></div>
+                        </div>
+                        
+                        <div class="commitment">
+                            <h3>Cam kết của anh:</h3>
+                            <ul>
+                                <li>✓ Sẽ lắng nghe em nhiều hơn và không cắt ngang khi em nói</li>
+                                <li>✓ Sẽ dành thời gian chất lượng cho em mỗi ngày</li>
+                                <li>✓ Sẽ thể hiện tình yêu bằng hành động, không chỉ lời nói</li>
+                                <li>✓ Sẽ tôn trọng cảm xúc và ý kiến của em</li>
+                                <li>✓ Sẽ cởi mở chia sẻ và không giấu giếm gì với em</li>
+                                <li>✓ Sẽ cùng em xây dựng tương lai hạnh phúc</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hearts">
+                <div class="heart a1"></div>
+                <div class="heart a2"></div>
+                <div class="heart a3"></div>
+            </div>
+            <div class="sparkles">
+                <div class="sparkle s1"></div>
+                <div class="sparkle s2"></div>
+                <div class="sparkle s3"></div>
+            </div>
+        </div>
+    </div>
+    <div class="controls">
+        <button id="openBtn">Mở</button>
+        <button id="resetBtn" style="display: none;">Đóng</button>
+    </div>
+    <audio id="sound" loop>
+      <source src="music.mp3" type="audio/mpeg" />
+    </audio>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
